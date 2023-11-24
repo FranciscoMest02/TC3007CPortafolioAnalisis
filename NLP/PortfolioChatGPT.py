@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 import whisper
 
-openai.api_key = "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"
+openai.api_key = "----"
 model = whisper.load_model("base")
 
 st.title("Transcriber and summarizer")
